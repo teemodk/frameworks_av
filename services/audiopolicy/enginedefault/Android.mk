@@ -19,6 +19,7 @@ LOCAL_CFLAGS += \
     -Wall \
     -Werror \
     -Wextra \
+    -Wno-parentheses\
 
 LOCAL_EXPORT_C_INCLUDE_DIRS := \
     $(audio_policy_engine_includes_common)
